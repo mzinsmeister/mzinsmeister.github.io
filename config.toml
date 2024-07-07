@@ -18,6 +18,7 @@ highlight_code = true
 greeting = "Hello!"
 iam = "I'm"
 links = [
+    { title = "LinkedIn", url = "https://www.linkedin.com/in/michael-zinsmeister/", icon = "linkedin" },
     { title = "GitHub", url = "https://github.com/mzinsmeister", icon = "github" },
 ]
 
