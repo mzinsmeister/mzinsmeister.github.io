@@ -1,0 +1,14 @@
+education:
+  - degree: "M.Sc. Informatik (Computer Science)"
+    institution: "Technical University of Munich (TUM)"
+    period: "April 2022 – April 2024"
+    details:
+      - "Focused on Database Systems, High-Performance Systems, and Algorithms."
+      - "Master's Thesis: M.Sc. Thesis in Database Systems."
+  - degree: "B.Sc. Informatik (Computer Science)"
+    institution: "Hochschule München"
+    period: "Jan 2018 – Feb 2022"
+    details:
+      - "Grade 1.2 (very good/outstanding)."
+      - "Specialization in Theoretical Computer Science, Algorithms, and Data Structures."
+      - "Duales Studium (integrated software development work)."

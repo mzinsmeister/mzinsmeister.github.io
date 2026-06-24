@@ -1,0 +1,25 @@
+skills:
+  - category: "Core Systems & Databases"
+    items:
+      - "Database Internals"
+      - "Buffer Management"
+      - "Query Execution"
+      - "In-Memory Systems"
+      - "Flash/NVMe Storage"
+  - category: "Programming Languages"
+    items:
+      - "Rust"
+      - "C++"
+      - "Java"
+      - "Kotlin"
+      - "Go"
+      - "SQL"
+      - "Sass/CSS"
+  - category: "Infrastructure & Dev"
+    items:
+      - "Docker"
+      - "Linux Systems"
+      - "Object Storage (S3)"
+      - "LLVM / JIT Compilers"
+      - "Git"
+      - "CI/CD"

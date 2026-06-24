@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.title }} | Database Systems Researcher{% endblock title %}
+
+{% block content %}
+    <!-- Hero Section -->
+    {% include "partials/hero.html" %}
+
+    <!-- About Section -->
+    {% include "partials/about.html" %}
+
+    <!-- Research & Publications Section -->
+    {% include "partials/research.html" %}
+
+    <!-- Experience Section -->
+    {% include "partials/experience.html" %}
+
+    <!-- Projects Section -->
+    {% include "partials/projects.html" %}
+
+    <!-- Teaching Section -->
+    {% include "partials/teaching.html" %}
+
+    <!-- Skills Section -->
+    {% include "partials/skills.html" %}
+
+    <!-- Contact Section -->
+    {% include "partials/contact.html" %}
+{% endblock content %}

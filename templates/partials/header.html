@@ -1,0 +1,37 @@
+<header class="site-header">
+    <div class="header-container">
+        <a href="/" class="header-logo">{{ config.extra.name }}</a>
+        <nav id="header-nav" class="header-nav">
+            <a href="#about" class="nav-item">About</a>
+            <a href="#research" class="nav-item">Research</a>
+            <a href="#experience" class="nav-item">Experience</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#teaching" class="nav-item">Teaching</a>
+            <a href="#skills" class="nav-item">Skills</a>
+            <a href="#contact" class="nav-contact-btn nav-item">Contact</a>
+        </nav>
+        <div class="menu-toggle-wrapper">
+            <!-- JS-enabled toggle button -->
+            <button class="menu-toggle-btn js-only" aria-label="Toggle navigation menu">
+                <svg class="icon-open" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+                <svg class="icon-close" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+            
+            <!-- No-JS anchors -->
+            <a href="#header-nav" class="menu-open-btn no-js-only" aria-label="Open navigation menu">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </a>
+            <a href="#close" class="menu-close-btn no-js-only" aria-label="Close navigation menu">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</header>

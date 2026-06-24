@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
+
+{% block header %}
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="header-logo">{{ config.extra.name }}</a>
+            <nav class="header-nav legal-nav">
+                <a href="/">← Back to Home</a>
+            </nav>
+        </div>
+    </header>
+{% endblock header %}
+
+{% block content %}
+    <main class="site-content legal-page-content">
+        <section class="section-container">
+            <h1 class="legal-page-title">{{ page.title }}</h1>
+            <div class="legal-page-body">
+                {{ page.content | safe }}
+            </div>
+            <div class="legal-page-back">
+                <a href="/" class="btn btn-secondary">← Back to Homepage</a>
+            </div>
+        </section>
+    </main>
+{% endblock content %}

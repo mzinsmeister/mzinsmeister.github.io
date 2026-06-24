@@ -1,0 +1,19 @@
+<section id="about" class="about-section">
+    <div class="section-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="lead-text">{{ config.extra.bio }}</p>
+            </div>
+            <div class="about-highlights">
+                {% set about_data = load_data(path="data/about_highlights.yaml") %}
+                {% for highlight in about_data.highlights %}
+                    <div class="highlight-card">
+                        <h3>{{ highlight.title }}</h3>
+                        <p>{{ highlight.description }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

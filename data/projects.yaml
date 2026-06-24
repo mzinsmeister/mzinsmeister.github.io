@@ -1,0 +1,22 @@
+projects:
+  - name: "OxidSQL"
+    description: "A toy SQL database written in Rust. Excellent demonstration of database internals knowledge and modern systems programming practices."
+    tags:
+      - "Rust"
+      - "SQL Parser"
+      - "Database Engine"
+    github: "https://github.com/mzinsmeister/OxidSQL"
+  - name: "PrediCache"
+    description: "C++ prototype implementation of the SIGMOD 2026 Predictive Translation buffer manager. Includes build and execution harnesses for TPC-C and YCSB workloads."
+    tags:
+      - "C++"
+      - "Buffer Manager"
+      - "TPC-C / YCSB"
+    github: "https://github.com/mzinsmeister/PrediCache"
+  - name: "FerrisJIT"
+    description: "Rust research experimentation with JIT (Just-In-Time) compilation utilizing inkwell (LLVM wrappers) and copy-and-patch strategies."
+    tags:
+      - "Rust"
+      - "LLVM / Inkwell"
+      - "JIT Compilation"
+    github: "https://github.com/mzinsmeister/FerrisJIT"

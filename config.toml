@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://zinsmeister.dev"
-theme = "hallo"
+title = "Michael Zinsmeister"
+description = "Personal website of Michael Zinsmeister, PhD Student in Database Systems at TUM"
+
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -10,22 +12,33 @@ build_search_index = true
 
 [markdown]
 # Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+highlighting = true
 
 [extra]
-# Put all your custom variables here
-greeting = "Hello!"
-iam = "I'm"
-links = [
-    { title = "LinkedIn", url = "https://www.linkedin.com/in/michael-zinsmeister/", icon = "linkedin" },
-    { title = "GitHub", url = "https://github.com/mzinsmeister", icon = "github" },
+greeting = "Hello, I'm"
+name = "Michael Zinsmeister"
+titles = [
+    "PhD Student @ TUM Chair for Data Science and Engineering",
+    "Database Systems Researcher",
+    "Co-Founder & Board Member of TUMuchData"
 ]
 
-[extra.author]
-name = "Michael"
+# Social and Academic Profiles
+profiles = [
+    { title = "GitHub", url = "https://github.com/mzinsmeister", icon = "github" },
+    { title = "LinkedIn", url = "https://www.linkedin.com/in/michael-zinsmeister/", icon = "linkedin" },
+    { title = "Google Scholar", url = "https://scholar.google.com/citations?user=MQbryEYAAAAJ&hl=en", icon = "scholar" },
+    { title = "TUM Profile", url = "https://db.in.tum.de/~zinsmeister/", icon = "academic" }
+]
 
-[extra.theme]
-background = "#6FCDBD"
-foreground = "#FFF" # text and portrait border
-hover = "#333" # link hover
+# Contact Info
+contact = { email_academic = "michael.zinsmeister@tum.de", phone = "+49 (0)89 / 289-17259", office = "Room 02.11.042, Boltzmannstr. 3, 85748 Garching", cv_url = "papers/masters-thesis.pdf" }
+
+# Short Bio
+bio = "I am a PhD student at the Technical University of Munich (TUM) Chair for Data Science and Engineering, advised by Prof. Thomas Neumann. My research focuses on high-performance buffer management for database systems that must handle datasets larger than main memory while leveraging modern flash and NVMe storage. Previously, I worked as a software developer at NOVENTI Health SE during and after my dual studies, gaining hands-on experience with production systems, Docker, and large-scale migrations."
+
+# Research Intro
+research_intro = "My research is centered around systems-level database performance, specifically in making high-performance buffer management techniques practical and portable. I am an active contributor to the Umbra database project at TUM, building systems optimized for modern hardware."
+
+# Teaching Intro Text
+teaching_intro = "I co-instruct and assist in database courses at the Technical University of Munich:"
