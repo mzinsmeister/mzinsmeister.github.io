@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Michael Zinsmeister, PhD Student in Database Systems at TUM">
+    <title>Privacy Policy &#x2F; Datenschutzerklärung | Michael Zinsmeister</title>
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="https://zinsmeister.dev/style.css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+    <!-- Sticky Header Block -->
+    
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="header-logo">Michael Zinsmeister</a>
+            <nav class="header-nav legal-nav">
+                <a href="/">← Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Content Block -->
+    
+    <main class="site-content legal-page-content">
+        <section class="section-container">
+            <h1 class="legal-page-title">Privacy Policy &#x2F; Datenschutzerklärung</h1>
+            <div class="legal-page-body">
+                <h2 id="general-information">General Information</h2>
+<p>As a visitor of this personal academic website, your privacy is highly valued. This policy outlines how information is collected, processed, and stored when you visit this website.</p>
+<p>This website is a static site generated with Zola and hosted on <strong>GitHub Pages</strong>, a service provided by GitHub, Inc. (88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA).</p>
+<hr />
+<h2 id="1-data-collection-and-processing">1. Data Collection and Processing</h2>
+<h3 id="web-hosting-server-log-files">Web Hosting &amp; Server Log Files</h3>
+<p>When you access this website, GitHub Pages automatically collects and stores certain technical information in server log files. This processing is technically necessary to serve the website to you, ensure the stability and security of the hosting infrastructure, and protect against cyberattacks.</p>
+<p>According to GitHub, the following data may be processed:</p>
+<ul>
+<li>IP address of the accessing device</li>
+<li>Date and time of the request</li>
+<li>Accessed URL/path</li>
+<li>HTTP status code</li>
+<li>Volume of data transmitted (in bytes)</li>
+<li>Referrer URL (the site previously visited, if sent by your browser)</li>
+<li>Browser type and version, and your operating system (User-Agent string)</li>
+</ul>
+<p>This data is processed on GitHub's servers (which may be located in the USA). For more details regarding GitHub’s privacy practices and security measures, please consult the <a rel="external" href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a>.</p>
+<h3 id="cookies">Cookies</h3>
+<p>This website is purely static and <strong>does not use cookies</strong> for tracking, marketing, or analytic purposes.</p>
+<h3 id="third-party-content-and-analytics">Third-Party Content and Analytics</h3>
+<ul>
+<li>No third-party analytics tools (like Google Analytics) are embedded.</li>
+<li>No social media tracking scripts or external ads are used.</li>
+<li>Web fonts are loaded locally, or via secure CDNs where no personal user profiles are constructed.</li>
+</ul>
+<hr />
+<h2 id="2-legal-basis-of-processing-gdpr">2. Legal Basis of Processing (GDPR)</h2>
+<p>If you are located in the European Economic Area (EEA), the legal basis for processing server log files is <strong>Article 6 (1) (f) GDPR</strong> (Legitimate Interests). The legitimate interest is to provide a functional, secure, and operational web presence for academic purposes.</p>
+<hr />
+<h2 id="3-your-rights">3. Your Rights</h2>
+<p>Under the GDPR, you have the following rights regarding your personal data:</p>
+<ul>
+<li>Right of access (Art. 15 GDPR)</li>
+<li>Right to rectification (Art. 16 GDPR)</li>
+<li>Right to erasure (Art. 17 GDPR)</li>
+<li>Right to restrict processing (Art. 18 GDPR)</li>
+<li>Right to data portability (Art. 20 GDPR)</li>
+<li>Right to object to processing (Art. 21 GDPR)</li>
+</ul>
+<p>To exercise these rights regarding the server log files, please contact the hosting provider (GitHub) directly, as the operator of this personal site has no access to the raw logs.</p>
+<hr />
+<h2 id="4-contact-details">4. Contact Details</h2>
+<p>For inquiries regarding this website, please contact the site operator:</p>
+<p>Michael Zinsmeister<br />
+Chair for Data Science and Engineering<br />
+Technical University of Munich<br />
+Boltzmannstr. 3, 85748 Garching, Germany<br />
+E-Mail: michael.zinsmeister@tum.de</p>
+
+            </div>
+            <div class="legal-page-back">
+                <a href="/" class="btn btn-secondary">← Back to Homepage</a>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer Block -->
+    
+        <footer class="site-footer">
+    <div class="footer-container">
+        <p>&copy; 2026 Michael Zinsmeister. All rights reserved.</p>
+        <p class="footer-subtext">
+            Built with <a href="https://www.getzola.org" target="_blank" rel="noopener noreferrer">Zola</a> 
+            &bull; <a href="https://zinsmeister.dev/impressum/">Impressum / Legal Notice</a> 
+            &bull; <a href="https://zinsmeister.dev/privacy/">Privacy Policy</a>
+        </p>
+    </div>
+</footer>
+
+    
+
+    <!-- Navigation JS logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var nav = document.getElementById('header-nav');
+            var toggleBtn = document.querySelector('.menu-toggle-btn');
+            if (toggleBtn && nav) {
+                toggleBtn.addEventListener('click', function() {
+                    nav.classList.toggle('is-open');
+                });
+                nav.querySelectorAll('.nav-item').forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        nav.classList.remove('is-open');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
