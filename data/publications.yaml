@@ -14,7 +14,7 @@ publications:
     year: "2024"
     pdf: "papers/masters-thesis.pdf"
     summary: "Master's thesis focusing on the design and implementation of database sampling algorithms that maintain accurate samples under highly concurrent update streams."
-  - title: "Designing and Integrating an S3-Compatible Object Storage Solution"
+  - title: "Introduction of an object storage solution into an existing software system"
     authors: "Michael Zinsmeister"
     venue: "Bachelor's Thesis, Hochschule München"
     location: "Munich, Germany"

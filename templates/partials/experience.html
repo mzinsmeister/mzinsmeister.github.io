@@ -20,6 +20,9 @@
                                 <span class="location-text">• {{ exp.location }}</span>
                             {% endif %}
                         </h4>
+                        {% if exp.description %}
+                            <p class="experience-description">{{ exp.description }}</p>
+                        {% endif %}
                         <ul class="experience-details">
                             {% for detail in exp.details %}
                                 <li>{{ detail }}</li>
